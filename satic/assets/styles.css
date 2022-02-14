@@ -1,0 +1,111 @@
+@import url(//db.onlinewebfonts.com/c/c7e919b8358daafbec26cde70a5237f9?family=Mark+Pro);
+@import url(//db.onlinewebfonts.com/c/49406bd70f319809254b2661e03dfb76?family=MarkW01-Heavy);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mark Pro";
+    width: 100%;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    float: left;
+    margin-left: 10%;
+}
+
+header {
+    display: flex;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 10%;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    white-space:nowrap;
+}
+
+.logoMain {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.buyNow {
+    border-radius: 2px;
+    background-color: #F29494;
+    padding: 15% 25%;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    margin-top: -10%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "MarkW01-Heavy";
+    margin: 0;
+}
+
+h2 {
+    letter-spacing: 15px;
+    font-size: 30px;
+    color: #EF9C9C;
+    font-weight: 100;
+    margin-top: 0%;
+}
+
+h3 {
+    font-size: 20px;
+    color: #868686;
+    font-weight: 70;
+    margin-top: 0%;
+}
+
+.watches {
+    display: flex;
+    margin-top: 5%;
+}
+.leftWatch, .rightWatch {
+    width: 50%;
+}
+
+.leftWatch h1, .rightWatch h1 {
+    font-size: 40px;
+}
+
+.leftWatch h2, .rightWatch h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 25%;
+}
+
+.leftWatch button, .rightWatch button {
+    border: none;
+    border-radius: 10%;
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+.rightWatch {
+    margin-right: 25%;
+}
+
+.watchMain {
+    height: 750px;
+}
+
+.rightMid {
+    display: flex;
+}
